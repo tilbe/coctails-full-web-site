@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Barlow:wght@300;500&family=Cinzel:wght@500&family=Orbitron:wght@400;700;800&family=Pacifico&family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    ;
+    background: linear-gradient(to right, #000000, rgb(0, 14, 74));
+
+}
+
+.header .flex {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.header .flex .title {
+    padding: 20px 30px;
+    font-family: 'Cinzel', serif;
+    color: white;
+
+}
+
+.header .flex .title i {
+    font-size: 32px;
+    background: linear-gradient(to right, #a31129, #dfdc12);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.header .flex .navbar {
+    padding: 20px 60px;
+    font-size: 16px;
+    margin-top: 8px;
+
+}
+
+.header .flex .navbar a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px 8px;
+
+    color: rgb(255, 255, 255);
+}
+
+.header .flex .navbar :hover {
+    color: #00235B;
+
+}
+
+.first-page {
+    display: block;
+    scroll-behavior: smooth;
+}
+
+.first-page .hm-page {
+    background: linear-gradient(90deg, rgb(2, 2, 2), transparent 70%), url("image/daylily-3512540_1280.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.first-page .hm-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-page .hm-page .content {
+    padding-right: 550px;
+
+}
+
+
+.first-page .hm-page .content h1 {
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+.first-page .hm-page .content p {
+    color: white;
+    padding: 5px;
+}
+
+.first-page .hm-page button {
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background-color: #00235B;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.first-page .hm-page button:hover {
+    background-color: white;
+    color: #a31129;
+}
+
+.OurCoctailsPage {
+    display: none;
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
+
+.coctails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+
+}
+
+.coctails img {
+    height: 300px;
+    width: 300px;
+    padding: 60px;
+
+}
+
+.coctails h2 {
+    padding: 24px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+
+}
+
+.coctails p {
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+.OurCoctailsPage .bigtitle {
+    text-align: center;
+
+    color: black;
+    border-bottom: 2px solid #51010f;
+    height: 50px;
+    width: 100%;
+
+}
+
+.OurCoctailsPage .bigtitle h1 {
+    color: #000000;
+}
+
+.description {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.description .oldies-remix {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.oldies-remix .title {
+    padding: 10px;
+    color: #a31129;
+    border-bottom: 2px solid #a31129;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description .title {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a31129;
+    border-bottom: 2px solid #a31129;
+    text-align: center;
+}
+
+.description .metin {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 32px;
+
+
+}
+
+.description .metin .col-md-6 {
+    text-align: center;
+    padding: 16px 96px;
+}
+
+.description .metin .col-md-6 p {
+    padding: 16px;
+
+}
+
+
+.description .metin .col-md-6 h2 {
+
+    color: #0B2447;
+}
+
+
+
+
+
+
+.big-page {
+    display: none;
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
+
+
+.big-page {
+    padding: 40px 80px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.click {
+    opacity: 30%;
+
+}
+
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    border-bottom: 1px solid #000000;
+    margin-right: 20px;
+    height: 90px;
+
+}
+
+
+
+
+
+.title p {
+    padding-right: 10px;
+}
+
+.title .option a {
+    padding: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.title .option p {
+    display: flex;
+
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    background-color: #a31129;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.title .option a:hover {
+
+    color: #a31129;
+    border-bottom: 3px solid #00235B;
+}
+
+.OldiesRemiX {
+    padding: 16px;
+
+}
+
+.OldiesRemiX .oldiesTitle {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+.list-title .grup-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-title .drinks {
+    padding: 16px;
+    margin: 20px;
+    border: 1px solid #000000;
+    width: 550px;
+}
+
+.list-title .drinks .dirnksTitle {
+    padding: 8px 0px;
+    font-weight: bold;
+    color: #a31129;
+}
+
+.list-title .drinks p {
+    padding: 16px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.grup-menu .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grup-menu .bottom a {
+    padding: 16px 4px;
+}
+
+.grup-menu .bottom a:hover {
+    color: #a31129;
+
+}
+
+
+
+.list-title .OldiesRemiX .baslik {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 36px;
+}
+
+.info {
+    background-color: #000000;
+    color: white;
+    padding: 8px;
+    border: 1px solid black;
+    height: 600px;
+    width: 540px;
+    position: fixed;
+    /* mutlaka sabit pozisyonda olmalı */
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+
+
+.info img {
+    width: 500px;
+    height: 350px;
+    margin-left: 13px;
+    margin-top: 10px;
+
+
+}
+
+.info h1 {
+    text-align: center;
+    padding: 8px;
+
+}
+
+.info p {
+    text-align: center;
+    padding: 8px;
+}
+
+.bottom-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.bottom-price .pirice {
+    background-color: #fff;
+    color: #000000;
+    display: flex;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 16px;
+
+}
+
+.bottom-price .pirice a {
+    padding: 0px 8px;
+}
+
+.bottom-price .pirice a:hover {
+    color: #a31129;
+}
+
+.bottom-price .pirice .price-number {
+    padding: 0;
+
+}
+
+.bottom-price button {
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    background-color: #00235B;
+    color: #fff;
+    width: 100%;
+}
+
+.bottom-price button:hover {
+    background-color: #a31129;
+    cursor: pointer;
+
+}
+
+.info .closeBtn {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    font-size: large;
+}
+
+.info .closeBtn:hover {
+    color: #a31129;
+}
+
+.about {
+    display: none;
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+.first {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.first .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.first .image img {
+    height: 150px;
+    width: 150px;
+
+}
+
+
+.first h1 {
+    margin-top: 50px;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    color: #00235B;
+
+}
+
+.first .aboutInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first .aboutInfo p {
+    padding: 10px;
+}
+
+.first .aboutInfo .titleAbout {
+    font-size: 20px;
+
+}
+
+.second {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: #fff;
+
+
+}
+
+.second .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second h1 {
+    padding: 20px;
+    color: #00235B;
+    letter-spacing: 3px;
+}
+
+.second .text p {
+    padding: 0px 250px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.second button {
+    padding: 16px 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00235B;
+    color: white;
+}
+
+.second button:hover {
+    background-color: #fff;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+
+.second img {
+    height: 400px;
+    width: 300px;
+    margin-right: 240px;
+    border-radius: 30px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    background-color: #fff;
+    border-top: 1px solid black;
+
+}
+
+.last .last-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-title h1 {
+    padding: 8px;
+
+}
+
+.last-title p {
+    text-align: center;
+    padding: 8px 80px;
+}
+
+.last .contanet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.last .contanet p {
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.contanet .form {
+    display: flex;
+
+}
+
+
+.contanet .form input {
+    padding: 8px 24px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+
+}
+
+.contanet .mesaj input {
+    margin-top: 20px;
+    padding: 16px;
+    text-align: start;
+    width: 390px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.last .contanet button {
+    margin-top: 30px;
+    padding: 16px;
+    width: 100%;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    background-color: #00235B;
+    color: #fff;
+}
+
+.last .contanet button:hover {
+    background-color: #9BA4B5;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+
+
+.contanet-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    display: none;
+    background-color: #fff;
+}
+
+.contanet-page .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.contanet-page p {
+    display: flex;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.contanet-page .form {
+    display: flex;
+
+}
+
+
+.contanet-page .form input {
+    padding: 8px 24px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+
+}
+
+.contanet-page .mesaj input {
+    margin-top: 20px;
+    padding: 16px;
+    text-align: start;
+    width: 390px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.contanet-page button {
+    margin-top: 30px;
+    padding: 16px;
+    width: 90%;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    background-color: #00235B;
+    color: #fff;
+}
+
+.contanet-page button:hover {
+    background-color: #9BA4B5;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.bag {
+    display: none;
+    background-color: rgb(237, 237, 237);
+    position: absolute;
+    top: 180px;
+    width: 300px;
+    right: 100px;
+
+}
+
+.bag .urun {
+    height: 55px;
+
+
+}
+
+.bag .urun .trash {
+    padding: 8px 15px;
+    font-size: 15px;
+
+}
+
+.bag .trash:hover {
+    color: #a31129;
+}
+
+
+.bag .Inbag {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    padding: 8px 16px;
+
+}
+
+.bag .urun .total {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+    font-size: 30px;
+
+}
+
+
+.bag .payButoon {
+    width: 100%;
+    background-color: #00235B;
+    color: white;
+    padding: 16px;
+    bottom: -40px;
+    border: none;
+    position: relative;
+}
+
+.bag .payButoon:hover {
+    background-color: rgb(75, 75, 158);
+    color: #fff;
+}
+
+.bag .close {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 24px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+
+}
+
+.bag .close:hover {
+    color: #a31129;
+}
+
+
+
+
+.bag .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bag .total .pricetitle {
+    padding: 8px 8px;
+
+}
+
+.bag .total .priceinfo {
+    padding: 8px 42px;
+}
+
+.paymentpage {
+    display: none;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+
+.paymentpage .title-payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+}
+
+.paymentpage .title-payment img {
+    height: 200px;
+    width: 200px;
+    padding: 16px;
+}
+
+
+.paymentpage .title-payment h1 {
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #00235B;
+}
+
+.paymentpage .checkOut {
+    display: flex;
+    padding: 8px;
+    margin-left: 300px;
+}
+
+.paymentpage .checkTitle {
+    color: #00235B;
+    padding: 34px;
+    text-align: center;
+}
+
+.paymentpage .checkOut .communication {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+
+}
+
+.paymentpage .checkOut .communication .addres {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 64px 8px;
+    border-bottom: 1px solid #c4c4c4;
+
+}
+
+.paymentpage .checkOut .communication .addres a {
+    text-align: end;
+    padding: 24px 8px;
+
+}
+
+.paymentpage .checkOut .communication .addres a:hover {
+    cursor: pointer;
+    color: #a31129;
+}
+
+.paymentpage .checkOut .communication .addres input {
+    margin: 8px 0px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #00235B;
+    margin-top: 16px;
+}
+
+.paymentpage .checkOut .communication .addres button {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    background-color: #00235B;
+    color: #fff;
+    border: none;
+    margin-top: 16px;
+}
+
+.paymentpage .checkOut .communication .addres button:hover {
+    cursor: pointer;
+    background-color: #112747;
+}
+
+
+
+.paymentpage .checkOut .contact-info {
+    padding: 64px 8px;
+    display: none;
+}
+
+.paymentpage .checkOut .contact-info section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 16px 0px;
+
+}
+
+
+.paymentpage .checkOut .contact-info section input {
+    margin: 8px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #00235B;
+
+}
+
+.paymentpage .checkOut .contact-info button {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    background-color: #00235B;
+    color: #fff;
+    border: none;
+    margin-top: 16px;
+}
+.paymentpage .checkOut .contact-info button:hover{
+    cursor: pointer;
+    background-color: #112747;  
+}
+.paymentpage .checkOut .cart-info {
+    display: none;
+}
+
+.paymentpage .checkOut .cart-info section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 16px 0px;
+
+
+}
+
+.paymentpage .checkOut .cart-info section input {
+    margin: 8px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #00235B;
+
+}
+
+.paymentpage .checkOut .cart-info button {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    background-color: #00235B;
+    color: #fff;
+    border: none;
+    margin-top: 16px;
+
+}
+.paymentpage .checkOut .cart-info button:hover{
+    cursor: pointer;
+    background-color: #112747;     
+}
+
+
+.paymentpage .checkOut .orderList {
+    padding: 64px 18px;
+    margin-left: 24px;
+
+    margin-left: 200px;
+    width: 300px;
+
+}
+
+.paymentpage .checkOut .orderList h4 {
+    border-bottom: 1px solid #00235B;
+    color: #00235B;
+
+}
+
+
+
+
+.paymentpage .checkOut .orderList .payorder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.paymentpage  .communication .back{
+    background-color: transparent;
+    outline: none;
+
+   border: none;
+    color: hsl(350, 81%, 35%);
+    display: flex;
+    justify-content: start;
+   
+}
+.paymentpage  .communication .back:hover{
+    color: #51010f;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        position: static;
+    }
+ 
+    .header .flex {
+        flex-direction: column;
+    }
+
+    .header .flex .navbar {
+        display: none;
+    }
+
+    .header .flex .navbar a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .first-page .hm-page .content .big-page {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .big-page .title {
+        display: grid;
+        padding: 0;
+
+
+    }
+
+    .second p {
+        font-size: 50%;
+        display: none
+    }
+
+    .last-title p {
+        display: none;
+    }
+
+    .last-title h1 {
+        display: none;
+    }
+}
