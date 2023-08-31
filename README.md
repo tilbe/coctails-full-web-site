@@ -25,4 +25,8 @@ Local Storage: By leveraging the capabilities of Local Storage, the site offers 
 ![2](https://github.com/tilbe/coctails-full-web-site/assets/125744380/28679223-e37a-4194-a794-e39fdcae8eb4)
 ![1](https://github.com/tilbe/coctails-full-web-site/assets/125744380/871c7630-540e-47d5-8524-7bc602562705)
 
+<h1>🎥Video</h1>
+
+https://github.com/tilbe/coctails-full-web-site/assets/125744380/2ef13286-1462-4743-b4c3-a7d645df56b1
+
 
